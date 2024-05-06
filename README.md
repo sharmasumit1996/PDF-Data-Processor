@@ -26,7 +26,7 @@ Load the validated data into Snowflake, a cloud data warehouse, for persistent s
 Ensure that both PDF content and metadata are handled correctly during the loading process.
 The successful implementation of these tasks will result in a streamlined process for PDF data management, from the point of user interaction to data storage and analysis. Our workflow is designed to be resilient, scalable, and maintainable, with clear separation of concerns and ease of monitoring.
 
-Technologies Used
+## Technologies Used
 
 ![STREAMLIT](https://camo.githubusercontent.com/121d8055ce25931b33557341b1397ec6721dca05b7f07978cbf3c9b9f4509b13/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53747265616d6c69742d4646344234423f7374796c653d666f722d7468652d6261646765266c6f676f3d73747265616d6c6974266c6f676f436f6c6f723d7768697465)
 ![PYTHON](https://camo.githubusercontent.com/9b071a101345849864a7ceb6b7f4fd417736f7cad1fe3c932bedfa09c2de43bc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3442384242453f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d79656c6c6f77)
@@ -38,8 +38,7 @@ Technologies Used
 ![SNOWFLAKE](https://camo.githubusercontent.com/dc35a1d40a4c61e5b08851b29a05998c1150fa48e739484e1087bdd6ac9ac6b1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536e6f77666c616b652d3239423545383f7374796c653d666f722d7468652d6261646765266c6f676f3d736e6f77666c616b65266c6f676f436f6c6f723d7768697465)
 [![FastAPI](https://camo.githubusercontent.com/d9fcef32b07a52e62acde87c779d3a33b6c0d7111149031c2cef1ec24f9c802c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666173746170692d3130393938393f7374796c653d666f722d7468652d6261646765266c6f676f3d46415354415049266c6f676f436f6c6f723d7768697465)](https://fastapi.tiangolo.com/) 
 
-Architecture:
-Alt text
+## Related Links:
 
 - [![codelabs](https://img.shields.io/badge/codelabs-4285F4?style=for-the-badge&logo=codelabs&logoColor=white)](https://codelabs-preview.appspot.com/?file_id=1rR8MdTSyWoAmdOa4enqDqAAH6V3XI_wwgrctNUDVrQQ/edit#4)
 
@@ -61,7 +60,7 @@ Snowflake: Use airflow/dags/load/snowflake_objects.sql to define the queries on 
 
 Google Cloud Platform: Create a Google Cloud Engine. Ensure you have the necessary credentials and configurations set up in the configurations.properties file.
 
-Program Structure
+## Project Structure
 ```
 📦 Assignment04
 ├─ .gitignore
