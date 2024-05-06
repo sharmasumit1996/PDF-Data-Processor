@@ -1,4 +1,4 @@
-# Assignment04
+# PDF Data Processor
 
 ## Problem Statement
 Many data-driven projects involve extracting data from various sources, such as CSV and XML files, and transforming it for analysis or storage. However, ensuring the quality and integrity of this data throughout the process can be challenging. Till now, we have made the ELT pipelines for extraction, schema validations and transformations. Now, the goal is to automate the entire process using AirFlow and develop API's with a user interface to give the end user the power to implement it all using single-click operations.
@@ -27,7 +27,16 @@ Ensure that both PDF content and metadata are handled correctly during the loadi
 The successful implementation of these tasks will result in a streamlined process for PDF data management, from the point of user interaction to data storage and analysis. Our workflow is designed to be resilient, scalable, and maintainable, with clear separation of concerns and ease of monitoring.
 
 Technologies Used
-Streamlit GitHub FastAPI Amazon AWS Python Pandas Apache Airflow Docker Google Cloud MongoDB Snowflake
+
+![STREAMLIT](https://camo.githubusercontent.com/121d8055ce25931b33557341b1397ec6721dca05b7f07978cbf3c9b9f4509b13/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f53747265616d6c69742d4646344234423f7374796c653d666f722d7468652d6261646765266c6f676f3d73747265616d6c6974266c6f676f436f6c6f723d7768697465)
+![PYTHON](https://camo.githubusercontent.com/9b071a101345849864a7ceb6b7f4fd417736f7cad1fe3c932bedfa09c2de43bc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d3442384242453f7374796c653d666f722d7468652d6261646765266c6f676f3d707974686f6e266c6f676f436f6c6f723d79656c6c6f77)
+![PANDAS](https://camo.githubusercontent.com/a38f77f5b33450d816dc95e4ac3f2fd9aad080d2bb6b4c54c85a79fcf3b8f8f8/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f50616e6461732d3135303435383f7374796c653d666f722d7468652d6261646765266c6f676f3d70616e646173266c6f676f436f6c6f723d7768697465)
+![AIRFLOW](https://camo.githubusercontent.com/90283584a4d10128fab5d50234c7e8c51890dca9fba7a2eed2c134c4ff3d9650/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4170616368655f416972666c6f772d3030413745313f7374796c653d666f722d7468652d6261646765266c6f676f3d6170616368652d616972666c6f77266c6f676f436f6c6f723d7768697465)
+![AMAZON S3](https://camo.githubusercontent.com/e2797019197ecc78e7b0b1242100f9d536442d89c10a06f8bc3813d428d7f8f3/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f416d617a6f6e5f53332d4637434131383f7374796c653d666f722d7468652d6261646765266c6f676f3d616d617a6f6e2d7333266c6f676f436f6c6f723d7768697465)
+![DOCKER](https://camo.githubusercontent.com/e20a054f7480fe4d651329ca4d15dc16767671ea36971dfca72ccf90413d615a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f446f636b65722d3064623765643f7374796c653d666f722d7468652d6261646765266c6f676f3d646f636b6572266c6f676f436f6c6f723d7768697465)
+![GOOGLE CLOUD](https://camo.githubusercontent.com/9bd9f9218a1c67f5069d37db967e8857b18e34acece18ea1a05333412951e993/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f476f6f676c655f436c6f75642d3432383546343f7374796c653d666f722d7468652d6261646765266c6f676f3d676f6f676c65636c6f7564266c6f676f436f6c6f723d7768697465)
+![SNOWFLAKE](https://camo.githubusercontent.com/dc35a1d40a4c61e5b08851b29a05998c1150fa48e739484e1087bdd6ac9ac6b1/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f536e6f77666c616b652d3239423545383f7374796c653d666f722d7468652d6261646765266c6f676f3d736e6f77666c616b65266c6f676f436f6c6f723d7768697465)
+[![FastAPI](https://camo.githubusercontent.com/d9fcef32b07a52e62acde87c779d3a33b6c0d7111149031c2cef1ec24f9c802c/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f666173746170692d3130393938393f7374796c653d666f722d7468652d6261646765266c6f676f3d46415354415049266c6f676f436f6c6f723d7768697465)](https://fastapi.tiangolo.com/) 
 
 Architecture:
 Alt text
@@ -185,12 +194,3 @@ Access the Streamlit UI by navigating to http://localhost:8503/ in your web brow
 - Understand the considerations for data security in cloud-based storage.
 
 These outcomes will equip learners with the skills and knowledge necessary to architect and implement scalable and efficient data processing systems in a cloud environment, with a focus on containerized applications and automated workflows.
-
-## Team
-
-| Name         | NUID          |
-| ------------ | ------------- |
-| Dongyu Liu   |  002837324    |
-| Ekta Bhatia  |  002767736    |
-| Parth Kalani |  002766306    |
-| Sumit Sharma |  002778911    |
